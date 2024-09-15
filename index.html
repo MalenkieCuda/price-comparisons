@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Comparison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        select, button {
+            margin: 10px;
+            padding: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Product Price Comparison</h1>
+    <p>Select a product to compare prices:</p>
+    <select id="product">
+        <option value="LEGO City 60262 - Centrum Kosmiczne">LEGO City 60262 - Centrum Kosmiczne</option>
+        <option value="Fisher-Price Lustrzany Myszka - GJD39">Fisher-Price Lustrzany Myszka - GJD39</option>
+        <option value="Chicco Projector Next2Stars - 07677">Chicco Projector Next2Stars - 07677</option>
+        <option value="Mega Bloks Weso³y Samochodzik - GCT46">Mega Bloks Weso³y Samochodzik - GCT46</option>
+        <option value="Barbie Dreamhouse Adventures Doll - GHR58">Barbie Dreamhouse Adventures Doll - GHR58</option>
+        <option value="Hot Wheels Track Builder Unlimited - GVG14">Hot Wheels Track Builder Unlimited - GVG14</option>
+        <option value="Playmobil 70150 - Statek Piratów">Playmobil 70150 - Statek Piratów</option>
+        <option value="VTech Baby Walker First Steps - 505603">VTech Baby Walker First Steps - 505603</option>
+        <option value="Baby Einstein Octopus Discovery - 10258">Baby Einstein Octopus Discovery - 10258</option>
+        <option value="Smoby Cotoons Domek Interaktywny - 110201">Smoby Cotoons Domek Interaktywny - 110201</option>
+        <option value="Chicco Samochodzik Turbo Team - Model 2022">Chicco Samochodzik Turbo Team - Model 2022</option>
+        <option value="LEGO Technic 42122 - Jeep Wrangler">LEGO Technic 42122 - Jeep Wrangler</option>
+        <option value="Fisher-Price Interaktywna Lama - FXH93">Fisher-Price Interaktywna Lama - FXH93</option>
+        <option value="Clementoni Zestaw Naukowy - Chemia 19169">Clementoni Zestaw Naukowy - Chemia 19169</option>
+        <option value="Mattel Gra UNO Junior - Model 2022">Mattel Gra UNO Junior - Model 2022</option>
+        <option value="Hape Drewniany Tor Wyœcigowy - E3725">Hape Drewniany Tor Wyœcigowy - E3725</option>
+        <option value="Playmobil 70317 - Zamek Ksiê¿niczki">Playmobil 70317 - Zamek Ksiê¿niczki</option>
+        <option value="Fisher-Price Hopsaj¹cy Zaj¹c - GGV45">Fisher-Price Hopsaj¹cy Zaj¹c - GGV45</option>
+        <option value="Little Tikes Cozy Coupe - Model 2022">Little Tikes Cozy Coupe - Model 2022</option>
+        <option value="Chicco Sorter Kszta³tów - Krokodylek 06899">Chicco Sorter Kszta³tów - Krokodylek 06899</option>
+        <option value="LEGO Ninjago 71735 - Turniej ¯ywio³ów">LEGO Ninjago 71735 - Turniej ¯ywio³ów</option>
+        <option value="Fisher-Price Edukacyjny Smartfon - FXC01">Fisher-Price Edukacyjny Smartfon - FXC01</option>
+        <option value="Simba Stra¿ak Sam Wóz Stra¿acki Jupiter - 109257670">Simba Stra¿ak Sam Wóz Stra¿acki Jupiter - 109257670</option>
+        <option value="L.O.L. Surprise! Remix Pets - MGA555265">L.O.L. Surprise! Remix Pets - MGA555265</option>
+        <!-- Dodaj wszystkie pozosta³e produkty tutaj -->
+    </select>
+    <button onclick="comparePrices()">Compare Prices</button>
+    <div id="results"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
